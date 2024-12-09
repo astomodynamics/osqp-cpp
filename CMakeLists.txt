@@ -21,7 +21,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Options.
 option(OSQP-CPP_BUILD_TESTS
-  "Whether to build tests." ON
+  "Whether to build tests." OFF
 )
 
 include(FetchContent)
